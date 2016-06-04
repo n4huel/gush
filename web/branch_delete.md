@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:delete
 -------------
 
@@ -51,4 +49,3 @@ use the <comment>--force</comment> option to force a delete, use with caution!
 * Is multiple: no
 * Description: Attempts to delete the branch even when permissions detected are insufficient
 * Default: `false`
-{% endblock %}

@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 core:autocomplete
 -----------------
 
@@ -17,4 +15,3 @@ The <info>core:autocomplete</info> creates a script to autocomplete Gush command
 
 
 
-{% endblock %}

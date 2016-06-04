@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 issue:show
 ----------
 
@@ -42,4 +40,3 @@ You can also call the command without the issue argument to pick up the current 
 * Is multiple: no
 * Description: Display comments from this issue
 * Default: `false`
-{% endblock %}

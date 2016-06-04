@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 meta:header
 -----------
 
@@ -66,4 +64,3 @@ For more information on using the paths see: http://symfony.com/doc/current/comp
 * Is multiple: no
 * Description: Do not use the local meta header if it is available
 * Default: `false`
-{% endblock %}

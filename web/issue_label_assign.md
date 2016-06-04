@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 issue:label:assign
 ------------------
 
@@ -48,4 +46,3 @@ and repo:
 * Is multiple: no
 * Description: Get pull requests
 * Default: `false`
-{% endblock %}

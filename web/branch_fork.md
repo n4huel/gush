@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:fork
 -----------
 
@@ -32,4 +30,3 @@ you want to fork to):
 * Is array: no
 * Description: Target organization to create the fork in. (Defaults to your username)
 * Default: `NULL`
-{% endblock %}

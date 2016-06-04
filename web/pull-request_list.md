@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:list
 -----------------
 
@@ -27,4 +25,3 @@ The <info>pull-request:list</info> command lists all the pull requests:
 * Is multiple: no
 * Description: For a list of available states, please refer to the adapter documentation
 * Default: `NULL`
-{% endblock %}

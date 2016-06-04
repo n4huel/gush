@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 core:clear
 ----------
 
@@ -17,4 +15,3 @@ The <info>core:clear</info> clears files from cache folder:
 
 
 
-{% endblock %}

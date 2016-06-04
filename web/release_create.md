@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 release:create
 --------------
 
@@ -117,4 +115,3 @@ The <info>release:create</info> command creates a release:
 * Is multiple: no
 * Description: Replace any existing release with the same name
 * Default: `false`
-{% endblock %}

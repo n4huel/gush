@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:sync
 -----------
 
@@ -33,4 +31,3 @@ The <info>branch:sync</info> command syncs local branch with it's origin version
 * Is array: no
 * Description: Git remote to pull from (defaults to origin)
 * Default: `'origin'`
-{% endblock %}

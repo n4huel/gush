@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 repo:create
 -----------
 
@@ -91,4 +89,3 @@ before any pull requests can be opened.
 * Is multiple: no
 * Description: Target organization (defaults to your username)
 * Default: `NULL`
-{% endblock %}

@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 release:remove
 --------------
 
@@ -25,4 +23,3 @@ The <info>release:remove</info> command removes a given release:
 * Is array: no
 * Description: ID of the release
 * Default: `NULL`
-{% endblock %}

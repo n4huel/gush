@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:styleci
 --------------------
 
@@ -25,4 +23,3 @@ The <info>pull-request:styleci</info> command applies StyleCI patches on given P
 * Is array: no
 * Description: PR number
 * Default: `NULL`
-{% endblock %}

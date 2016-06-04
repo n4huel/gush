@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:changelog
 ----------------
 
@@ -51,4 +49,3 @@ http://www.regular-expressions.info/
 * Is multiple: yes
 * Description: Regex pattern to use for searching
 * Default: `array (  0 => '/#(?P<id>[0-9]+)/i',)`
-{% endblock %}

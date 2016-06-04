@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 issue:copy
 ----------
 
@@ -81,4 +79,3 @@ The <info>issue:copy</info> command moves an issue from one repository to anothe
 * Is multiple: no
 * Description: Also copy comments
 * Default: `false`
-{% endblock %}

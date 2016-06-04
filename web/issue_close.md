@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 issue:close
 -----------
 
@@ -38,4 +36,3 @@ and repository:
 * Is multiple: no
 * Description: Closing comment
 * Default: `NULL`
-{% endblock %}

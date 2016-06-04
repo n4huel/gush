@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 core:update
 -----------
 
@@ -44,4 +42,3 @@ Updates the application.
 * Is multiple: no
 * Description: Upgrade to next major release, if available.
 * Default: `false`
-{% endblock %}

@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:squash
 -------------------
 
@@ -43,4 +41,3 @@ You can skip this sync-process using the <comment>--no-local-sync</> option.
 * Is multiple: no
 * Description: Do not sync the local branch with the squashed version
 * Default: `false`
-{% endblock %}

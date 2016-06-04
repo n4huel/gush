@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 issue:take
 ----------
 
@@ -48,4 +46,3 @@ After you are done you can open a new pull-request using the <info>$ gush pull-r
 * Is array: no
 * Description: Name of the base branch to checkout from
 * Default: `NULL`
-{% endblock %}

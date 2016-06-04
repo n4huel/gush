@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:fixer
 ------------------
 
@@ -25,4 +23,3 @@ The <info>pull-request:fixer</info> runs the coding style fixer and commits fix:
 * Is array: no
 * Description: Custom fixer command
 * Default: `'php-cs-fixer fix .'`
-{% endblock %}

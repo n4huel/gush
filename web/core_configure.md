@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 core:configure
 --------------
 
@@ -17,4 +15,3 @@ The <info>core:configure</info> configure settings Gush will use (including adap
 
 
 
-{% endblock %}

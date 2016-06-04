@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:pat-on-the-back
 ----------------------------
 
@@ -25,4 +23,3 @@ The <info>pull-request:pat-on-the-back</info> command gives a pat on the back to
 * Is array: no
 * Description: Pull request number
 * Default: `NULL`
-{% endblock %}

@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 help
 ----
 
@@ -13,11 +11,11 @@ help
 
 The <info>help</info> command displays help for a given command:
 
-  <info>php gush.phar help list</info>
+  <info>php /Users/sebastiaanstok/sites/gushphp/gush/bin/gush help list</info>
 
 You can also output the help in other formats by using the <comment>--format</comment> option:
 
-  <info>php gush.phar help --format=xml list</info>
+  <info>php /Users/sebastiaanstok/sites/gushphp/gush/bin/gush help --format=xml list</info>
 
 To display the list of available commands, please use the <info>list</info> command.
 
@@ -62,4 +60,3 @@ To display the list of available commands, please use the <info>list</info> comm
 * Is multiple: no
 * Description: To output raw command help
 * Default: `false`
-{% endblock %}

@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:assign
 -------------------
 
@@ -33,4 +31,3 @@ The <info>pull-request:assign</info> command assigns a pull request to a user:
 * Is array: no
 * Description: Username of the assignee
 * Default: `NULL`
-{% endblock %}

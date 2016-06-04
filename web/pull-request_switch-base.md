@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:switch-base
 ------------------------
 
@@ -54,4 +52,3 @@ pull-request branch is up-to-date with the current base!</>
 * Is multiple: no
 * Description: Create a new PR, even when the used adapter supports switching the base
 * Default: `false`
-{% endblock %}

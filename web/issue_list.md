@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 issue:list
 ----------
 
@@ -126,4 +124,3 @@ With the addition of the <info>--type</info> option which enables you to filter 
 * Is multiple: no
 * Description: Only issues after this time are displayed.
 * Default: `NULL`
-{% endblock %}

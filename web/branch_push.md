@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:push
 -----------
 
@@ -47,4 +45,3 @@ The <info>branch:push</info> command pushes the current local branch into your o
 * Is multiple: no
 * Description: Push branch to remote ignoring non-update branch state.
 * Default: `false`
-{% endblock %}

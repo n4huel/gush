@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:merge
 ------------
 
@@ -210,4 +208,3 @@ If you want to skip the workflow for the current merge use the <comment>--ignore
 * Is multiple: no
 * Description: Source Repository - source Repository name (defaults to current repository)
 * Default: `NULL`
-{% endblock %}

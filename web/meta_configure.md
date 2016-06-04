@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 meta:configure
 --------------
 
@@ -18,4 +16,3 @@ This information is used by the <info>$ gush meta:header</info> for applying the
 
 
 
-{% endblock %}

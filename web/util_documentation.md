@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 util:documentation
 ------------------
 
@@ -17,4 +15,3 @@ The <info>util:documentation</info> command generates command docuementation for
 
 
 
-{% endblock %}

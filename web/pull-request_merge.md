@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:merge
 ------------------
 
@@ -115,4 +113,3 @@ the target branch directly!
 * Is multiple: no
 * Description: Switch the base of the pull request before merging
 * Default: `NULL`
-{% endblock %}

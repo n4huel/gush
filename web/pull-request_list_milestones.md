@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:list:milestones
 ----------------------------
 
@@ -18,4 +16,3 @@ or the given organization and repository:
 
 
 
-{% endblock %}

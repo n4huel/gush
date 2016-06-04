@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 core:init
 ---------
 
@@ -17,4 +15,3 @@ The <info>core:init</info> creates .gush.yml file that Gush will use for project
 
 
 
-{% endblock %}

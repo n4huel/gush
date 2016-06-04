@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 branch:remote:add
 -----------------
 
@@ -42,4 +40,3 @@ The <info>branch:remote:add</info> command adds a remote with a url provided by 
 * Is array: no
 * Description: Remote name. When not provided the other_organization is used as remote-name
 * Default: `NULL`
-{% endblock %}

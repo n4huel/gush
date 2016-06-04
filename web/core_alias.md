@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 core:alias
 ----------
 
@@ -27,4 +25,3 @@ The <info>core:alias</info> outputs an alias snippet to wrap Gush on git:
 * Is multiple: no
 * Description: Outputs only snippet
 * Default: `false`
-{% endblock %}

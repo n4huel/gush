@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:checkout
 ---------------------
 
@@ -26,4 +24,3 @@ as the source organization of the pull-request and check out the local branch in
 * Is array: no
 * Description: Pull Request number to be checked-out
 * Default: `NULL`
-{% endblock %}

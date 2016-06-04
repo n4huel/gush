@@ -1,8 +1,6 @@
 ---
-layout: docu-page
-full_title: "Gush: Rapid workflow for project maintainers and contributors"
+title: Gush: Rapid workflow for project maintainers and contributors
 ---
-{% block content %}
 pull-request:fabbot-io
 ----------------------
 
@@ -25,4 +23,3 @@ The <info>pull-request:fabbot-io</info> command applies fabbot.io patches on giv
 * Is array: no
 * Description: PR number
 * Default: `NULL`
-{% endblock %}
