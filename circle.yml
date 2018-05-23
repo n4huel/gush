@@ -21,6 +21,8 @@ dependencies:
   cache_directories:
     - ~/docker
   override:
+    # Next line is required to add dev dependencies to Dockerfile image without polluting the production release
+    - echo -e 'RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ && docker-php-ext-install -j$(nproc) gd' >> Dockerfile
     - docker build --rm=false -t gush .
 test:
   override:
